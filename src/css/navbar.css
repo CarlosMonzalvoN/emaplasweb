@@ -1,0 +1,20 @@
+
+.navbar {
+    box-shadow: 2px 2px 5px black;
+    opacity: .8;
+}
+
+/*Overriding with !important styles of bootstrap*/
+.navbar a{
+    color: black!important;
+}
+
+.navbar a.nav-link:hover{
+    background-color: black!important;
+    color: white!important;
+}
+
+.navbar a.visited {
+    color: red!important;
+} 
+

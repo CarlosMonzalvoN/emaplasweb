@@ -1,0 +1,47 @@
+.background-home{
+    background-image: url(../img/background-home.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.wrapper-maps{
+    align-content: center;
+    padding: 10px;
+}
+
+.background-column {
+    background-color: rgba(70, 70, 70, .7);
+    color: whitesmoke;
+}
+
+.background-home h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.info-contact{
+    text-align: center;
+}
+
+.background-home .col a{
+    
+    text-decoration: underline;
+
+}
+
+.background-home .col{
+    text-align: left;
+}
+/*
+.col-sm a{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+  
+.col-sm a:hover {
+    color:rgb(47, 47, 255);
+}
+*/

@@ -1,0 +1,63 @@
+@import 'https://fonts.googleapis.com/css?family=Tangerine';
+
+.background-home{
+    background-image: url(../img/background-home.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.player-wrapper {
+    position: relative;
+    padding-top: 26%; /* Player ratio: 100 / (1280 / 720) */
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+  
+  .react-player {
+    position: absolute;
+    top: 0;
+  }
+
+.banner{
+    background: url(../img/banner-botellas.jpg);
+    float: left;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover; /* 100% de ancho*/
+    /*background-attachment: fixed;  Imagen fija*/
+    text-align: center;
+    margin-bottom: 8px;
+}
+.banner h3{
+    background: rgba(0,0,0,.5);
+    color:white;
+    font-family: 'Tangerine', serif;
+    text-shadow: 4px 4px 4px black;
+    
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 3%;
+}
+
+@media screen and (min-width: 1201px) {
+    .banner h3 {
+      font-size: 100px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 1200px) {
+    .banner h3 {
+      font-size: 80px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .banner h3 {
+      font-size: 60px;
+    }
+  }
