@@ -20,9 +20,13 @@ class DataProducts extends Component{
                         <Card.Body>
                             <Card.Title>Elige una categoría para comenzar</Card.Title>
                             <Card.Text >
-                                Si no logras encontrarlo en nuestro catálogo.<br/><br/> 
-                                <h5>Pregúntanos!</h5><br/>
-                                Con mucho gusto te atenderemos y <br/>resolveremos tus problemas plásticos.
+                                Si no logras encontrarlo en nuestro catálogo.
+                            </Card.Text>
+                            <Card.Text style={{fontWeight:'bold'}}>
+                                Pregúntanos!
+                            </Card.Text>
+                            <Card.Text >
+                                Con mucho gusto te atenderemos y resolveremos tus problemas plásticos.
                             </Card.Text>
                         </Card.Body>
                     </Card>

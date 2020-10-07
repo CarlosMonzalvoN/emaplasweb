@@ -20,7 +20,7 @@ class Products extends Component{
 
     getJson = () =>{
         
-        const url = 'https://gist.githubusercontent.com/CarlosMonzalvoN/533efedcda63eae8d4a41bdda12ba8fb/raw/8c0a4d75c5fb768d63c3eccdb4d548f55b893ad8/plasticosEma.json'
+        const url = 'https://gist.githubusercontent.com/CarlosMonzalvoN/533efedcda63eae8d4a41bdda12ba8fb/raw/1bfc372b95579a9677263f2a38f6116649b7278b/plasticosEma.json'
 
         fetch(url)
         .then(response => response.json())

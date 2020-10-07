@@ -15,7 +15,7 @@ const Home = () => {
         <ReactPlayer
           className="react-player"
           url={video}
-          playing
+          controls="true"
           width="100%"
           height="100%"
           volume={0.05}
