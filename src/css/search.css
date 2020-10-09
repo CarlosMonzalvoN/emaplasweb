@@ -1,0 +1,14 @@
+.search-menu{
+    padding-left: 120px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .search-menu {
+      padding: 0;
+      padding-left: 10px;
+      padding-top: 45px;
+    }
+  }

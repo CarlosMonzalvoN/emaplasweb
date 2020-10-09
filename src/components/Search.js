@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Button, ButtonGroup } from 'react-bootstrap';
+import "../css/search.css";
 
 class Search extends Component{
 
@@ -17,7 +18,7 @@ class Search extends Component{
     render(){  
         return(
             
-                <div className='col-12 p-5 row'>
+                <div className='search-menu'>
                     <ButtonGroup vertical>
                         <Button  variant="secondary" onClick={(e) => this.obtenerDatos('0', e)} >Botellas</Button>
                         <Button  variant="secondary" onClick={(e) => this.obtenerDatos('1', e)} >Capsuleros</Button> 

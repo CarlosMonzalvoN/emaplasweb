@@ -58,6 +58,9 @@
 
   @media screen and (max-width: 1000px) {
     .banner h3 {
-      font-size: 60px;
+      font-size: 55px;
+    }
+    .player-wrapper{
+      height: 200px;
     }
   }

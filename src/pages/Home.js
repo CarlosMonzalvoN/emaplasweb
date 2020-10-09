@@ -15,7 +15,7 @@ const Home = () => {
         <ReactPlayer
           className="react-player"
           url={video}
-          controls="true"
+          controls={true}
           width="100%"
           height="100%"
           volume={0.05}
@@ -49,7 +49,7 @@ const Home = () => {
           <Card.Img variant="top" src={vision} />
           <Card.Body>
             <Card.Text>
-            En ENVASES PLÁSTICOS EMA trabajamos para ser la mejor opción a nivel nacional en ámbitos de fabricación y distribución de insumos plásticos.{" "}
+            Trabajamos para ser la mejor opción a nivel nacional en ámbitos de fabricación y distribución de insumos plásticos.{" "}
             </Card.Text>
           </Card.Body>
         </Card>
@@ -62,9 +62,9 @@ const Home = () => {
           <Card.Img variant="top" src={objetivo} />
           <Card.Body>
             <Card.Text style={{textAlign:'left'}}>
-            • Garantizamos la Calidad de nuestros productos.<br></br>
-            • Garantizamos la Satisfacción del Cliente.<br></br>
-            • Garantizamos la Mejora Continua de nuestros procesos.<br></br>
+            • Garantizamos la calidad de nuestros productos.<br></br>
+            • Garantizamos la satisfacción del cliente.<br></br>
+            • Garantizamos la mejora continua de nuestros procesos.<br></br>
             • Garantizamos tiempos de entrega.<br></br>
             • Brindar la mas amplia variedad de productos para cada necesidad<br></br>
             </Card.Text>

@@ -12,9 +12,8 @@ class DataProducts extends Component{
                 <div className='col-12 p-5 row justify-content-center'>
                     
                     <Card
-                    bg="info"
                     text="white"
-                    style={{textAlign:'center'}}
+                    style={{textAlign:'center', backgroundColor:'#ffcc00'}}
                     >
                     <Card.Header style={{fontWeight:'bold'}}> <h3>Aviso</h3> </Card.Header>
                         <Card.Body>

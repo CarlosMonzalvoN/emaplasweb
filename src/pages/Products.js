@@ -34,9 +34,9 @@ class Products extends Component{
     render(){
         return(
             <div className="background-home">
-                <div className='container'>
+                
                     <div className="row justify-content-center">
-                        <div className="col-3">
+                        <div className="col-4">
                             <Search datosBusqueda={this.datosBusqueda}/>
                         </div>
                         <div className="col">
@@ -45,7 +45,7 @@ class Products extends Component{
                             />
                         </div>
                     </div>
-                </div>
+                
             </div>
         )
     }
