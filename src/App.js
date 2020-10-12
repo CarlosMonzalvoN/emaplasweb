@@ -5,7 +5,6 @@ import NavBar from "./components/Navegation"
 import Footer from "./components/Footer"
 import Products from './pages/Products';
 import Home from './pages/Home';
-import Ubication from './pages/Ubication';
 import Contact from './pages/Contact';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop'
@@ -25,7 +24,6 @@ class App extends Component {
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/products" component={Products} />
-                <Route path="/ubication" component={Ubication} />
                 <Route path="/contact" component={Contact} />
               </Switch>
             </div>
