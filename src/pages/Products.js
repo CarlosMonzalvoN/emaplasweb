@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import Search from '../components/Search';
 import DataProducts from '../components/DataProducts';
-import "../css/home.css"; //Only for use the same background
+import "../css/products.css"; //Only for use the same background
+import { Button } from 'react-bootstrap';
 
 class Products extends Component{
 
@@ -33,19 +34,27 @@ class Products extends Component{
 
     render(){
         return(
-            <div className="background-home">
+            <div className="background-products">
                 
-                    <div className="row justify-content-center">
+                    <div className="row" style={{marginRight:'0px'}}>
                         <div className="col-4">
                             <Search datosBusqueda={this.datosBusqueda}/>
                         </div>
-                        <div className="col">
+                        <div className="col" style={{alignSelf:'center'}}>
                             <DataProducts 
                                 images={this.state.images}
                             />
                         </div>
                     </div>
-                
+                    
+                    <div style={{textAlign:'center'}}>
+                        <hr />
+                        <h5> Si no logras encontrarlo en nuestro catálogo.</h5>
+                        <Button variant='info' href="mailto:ventas@plasticosema.com.mx?Subject=Solicitud%20de%20información">
+                            ¡ Preguntanos !
+                        </Button>
+                        <p>Con mucho gusto te atenderemos y resolveremos tus problemas plásticos.</p>
+                    </div>
             </div>
         )
     }

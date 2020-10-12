@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import "../css/ubication.css";
 
 export default () => (
-    <div className="background-home">
+    <div className="background-ubication">
         <Container>
             <Row>
                 <Col>
@@ -15,7 +15,7 @@ export default () => (
                 <Col className="background-column">
                     <br />
                     <h1>
-                        Contáctanos
+                        Ubicación
                     </h1><br />
 
                     <div className="info-contact">
@@ -30,7 +30,7 @@ export default () => (
                             <br />
                             <li>
                                 <h6>
-                                    Telefonos:
+                                    Teléfonos:
                                 </h6>
                             </li>
                             <li>

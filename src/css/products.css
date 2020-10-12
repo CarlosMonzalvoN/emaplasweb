@@ -1,0 +1,7 @@
+.background-products{
+    background-image: url(../img/background-home.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

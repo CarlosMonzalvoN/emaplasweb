@@ -35,7 +35,7 @@
 .banner h3{
     background: rgba(0,0,0,.5);
     color:white;
-    font-family: 'Tangerine', serif;
+    /* font-family: 'Tangerine', serif; */
     text-shadow: 4px 4px 4px black;
     
     height: 100%;
@@ -43,22 +43,22 @@
     padding-top: 3%;
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 769px) {
     .banner h3 {
-      font-size: 100px;
+      font-size: 62px;
     }
   }
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 768px) {
     .banner h3 {
-      font-size: 80px;
+      font-size: 56px;
     }
   }
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 500px) {
     .banner h3 {
-      font-size: 55px;
+      font-size: 35px;
     }
     .player-wrapper{
       height: 200px;

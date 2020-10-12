@@ -19,7 +19,7 @@ class Navegation extends React.Component {
                     <Nav className="ml-auto">
                         <Link to="/" className="nav-link">Inicio</Link>
                         <Link to="/products" className="nav-link">Productos</Link>
-                        <Link to="/ubication" className="nav-link">Ubicación</Link>
+                        <Link to="/ubication" className="nav-link">Contacto</Link>
                         {/* <Link to="/contact" className="nav-link">Contacto</Link> */}
                     </Nav>
                 </Navbar.Collapse>
