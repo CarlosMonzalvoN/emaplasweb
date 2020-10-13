@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop'
+import WhatsApp from "./components/WhatsApp";
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
           </BrowserRouter>
         </div>
         <Footer />
+        <WhatsApp />
       </div>
     );
   }

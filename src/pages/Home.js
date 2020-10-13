@@ -4,9 +4,9 @@ import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import "../css/home.css";
 import video from "../video/logo-ema.mp4";
-import mision from "../img/mision.jpeg";
-import vision from "../img/vision.jpeg";
-import objetivo from "../img/objetivo.jpeg";
+import mision from "../img/mision.jpg";
+import vision from "../img/vision.jpg";
+import objetivo from "../img/objetivo.jpg";
 
 function Home() {
   return (

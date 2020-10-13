@@ -28,6 +28,9 @@ const Footer = () =>{
                     <a href="tel:5614692280">5614692280</a>
                 </li>
                 <li>
+                    <a href="tel:2481060154">2481060154</a>
+                </li>
+                <li>
                     <a href="mailto:ventas@plasticosema.com.mx?Subject=Cotización%20de%20botella">envasesplas.ema@gmail.com</a>
                 </li>
                 <li>

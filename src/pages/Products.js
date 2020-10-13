@@ -35,7 +35,6 @@ class Products extends Component{
     render(){
         return(
             <div className="background-products">
-                
                     <div className="row" style={{marginRight:'0px'}}>
                         <div className="col-4">
                             <Search datosBusqueda={this.datosBusqueda}/>
